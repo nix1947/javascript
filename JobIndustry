@@ -1,0 +1,186 @@
+Advertising Agency
+Airlines | GSA
+Architecture | Interior Design Firm
+Audit Firms | Tax Consultant
+Automotive Sales, Support & Service
+Banks
+Banquet | Catering
+BPO | Call Center | ITES
+Construction | Real Estate
+Consulting | Legal
+Consumer Products | FMCG
+Designing | Printing | Publishing
+Direct Sells | Marketing Service
+Distribution Companies | Wholesale
+Education - School & Colleges
+Embassies | Foreign Consulate
+Engineering Firms
+Event Management
+Finance Companies
+Garments | Carpet Industries
+Hardware | Network Companies
+Hospital | Clinic | Diagnostic Centre
+Hotels | Resorts | Restaurant
+Hydropower | Alternate Energy
+Immigration & Education Consultancy
+Information | Computer | Technology
+Insurance Companies
+ISP
+Logistic | Courier| Air Express Companies
+Other
+Manpower Recruitment
+Manufacturing | Engineering
+Media | Publication (Newspaper, Magazines)
+Multinational Companies
+NGO | INGO | Development Projects
+Pharmaceuticals | Healthcare
+Poultry | Dairy | Veterinary
+Research Firms
+Retail | Shops
+Security Service Company
+Software Companies
+Telecommunication
+Trading - Export | Import | Merchandising
+Training Institutes
+Travel Agents | Tour Operators
+Agriculture, Forestry, Fishing and Poultry
+Associations
+Bakery
+Beauty, wellness and Grooming
+Beverage and Liquor Industries
+Biotechnology
+Brick Manufacture and Supplies
+Broadcast Media
+Business Supplies and Equipment
+Cable Television
+Capital Market
+Cement Manufacturer
+Ceramics and Sanitary Ware
+Chemical and Medical Suppliers
+Chemicals and Petroleum
+Cloth Merchant and Tailoring
+Construction Material and Equipment
+Dairy
+E-Commerce| E-Business
+Energy - Utilities - Gas - Electric
+Facility Management
+Film| Motion Picture Production
+Food Production
+Footwear Manufacturer
+Forest Based Industry and Trade
+Gem and Jewellery
+Government Organization
+Handicraft
+Health, Wellness and Fitness
+Herb and Herbal Product
+Import - Export
+Investment
+Logistics and Supply Chain
+Luxury Goods and Accessories
+Mining| Drilling| Resources
+Packaging and Containers
+Professional, Scientific, Technical Services
+Public Administration and Safety
+Public Relation and Communication
+Real Estate - Property Management, Rental and Hiring
+Recreation and Entertainment
+Remittance
+Repair| Maintenance Services
+Rice, Edible Oil and Pulse
+Steel and Furniture
+
+/* Sql insert */ 
+insert into public.job_industry( created_date, updated_date, is_active, is_deleted, uuid, title) 
+
+values
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Advertising Agency '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Airlines | GSA '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Architecture | Interior Design Firm '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Audit Firms | Tax Consultant '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Automotive Sales, Support & Service '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Banks '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Banquet | Catering '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' BPO | Call Center | ITES '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Construction | Real Estate '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Consulting | Legal '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Consumer Products | FMCG '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Designing | Printing | Publishing '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Direct Sells | Marketing Service '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Distribution Companies | Wholesale '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Education - School & Colleges '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Embassies | Foreign Consulate '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Engineering Firms '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Event Management '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Finance Companies '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Garments | Carpet Industries '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Hardware | Network Companies '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Hospital | Clinic | Diagnostic Centre '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Hotels | Resorts | Restaurant '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Hydropower | Alternate Energy '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Immigration & Education Consultancy '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Information | Computer | Technology '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Insurance Companies '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' ISP '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Logistic | Courier| Air Express Companies '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Other '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Manpower Recruitment '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Manufacturing | Engineering '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Media | Publication (Newspaper, Magazines) '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Multinational Companies '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' NGO | INGO | Development Projects '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Pharmaceuticals | Healthcare '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Poultry | Dairy | Veterinary '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Research Firms '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Retail | Shops '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Security Service Company '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Software Companies '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Telecommunication '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Trading - Export | Import | Merchandising '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Training Institutes '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Travel Agents | Tour Operators '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Agriculture, Forestry, Fishing and Poultry '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Associations '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Bakery '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Beauty, wellness and Grooming '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Beverage and Liquor Industries '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Biotechnology '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Brick Manufacture and Supplies '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Broadcast Media '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Business Supplies and Equipment '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Cable Television '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Capital Market '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Cement Manufacturer '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Ceramics and Sanitary Ware '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Chemical and Medical Suppliers '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Chemicals and Petroleum '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Cloth Merchant and Tailoring '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Construction Material and Equipment '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Dairy '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' E-Commerce| E-Business '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Energy - Utilities - Gas - Electric '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Facility Management '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Film| Motion Picture Production '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Food Production '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Footwear Manufacturer '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Forest Based Industry and Trade '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Gem and Jewellery '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Government Organization '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Handicraft '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Health, Wellness and Fitness '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Herb and Herbal Product '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Import - Export '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Investment '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Logistics and Supply Chain '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Luxury Goods and Accessories '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Mining| Drilling| Resources '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Packaging and Containers '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Professional, Scientific, Technical Services '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Public Administration and Safety '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Public Relation and Communication '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Real Estate - Property Management, Rental and Hiring '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Recreation and Entertainment '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Remittance '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Repair| Maintenance Services '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Rice, Edible Oil and Pulse '   ),
+('2021-10-25', '2021-10-25', '1', '0',  uuid_generate_v1(),    ' Steel and Furniture '   )
+RETURNING id;
